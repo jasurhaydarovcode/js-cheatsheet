@@ -1,4 +1,4 @@
-<h1 align="center">Java Script Components by <a href="https://github.com/ha7darov">JASURBEK HAYDAROV</a></h1>
+<h1 align="center">Java Script Components by <a href="https://github.com/jasurbekhaydarovcode">JASURBEK HAYDAROV</a></h1>
 
 
 # Components
