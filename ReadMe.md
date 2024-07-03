@@ -65,3 +65,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </html>
 ```
+
+## № 3 , You can use JavaScript to link the styles.css file to your HTML page in one of the following ways:
+
+### 1. Creating a link tag using JavaScript
+```js
+// Create a link element to link the CSS file
+var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'styles.css'; // The path to the CSS file
+link.media = 'all';
+
+// add the link element to the head tag
+document.getElementsByTagName('head')[0].appendChild(link);
+```
