@@ -80,3 +80,12 @@ link.media = 'all';
 // add the link element to the head tag
 document.getElementsByTagName('head')[0].appendChild(link);
 ```
+
+## № 4 , Create Element `<head>` in <div id="root"></div>
+```js
+// Create Element <div id="root"></div>
+const rootDiv = document.createElement('div');
+rootDiv.id = 'root';
+document.body.appendChild(rootDiv);
+let root = document.querySelector('#root')
+```
